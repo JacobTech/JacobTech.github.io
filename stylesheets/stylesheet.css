@@ -57,7 +57,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: url("https://static.wixstatic.com/media/d60ee4_5f715cab0487433c880333cbe9dfccb7.jpg/v1/fill/w_499,h_427,al_c,lg_1,q_80/d60ee4_5f715cab0487433c880333cbe9dfccb7.jpg") }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -73,7 +73,15 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: -0.9rem;
+    opacity: 0.7;
+  background-color:black;}
+ 
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+background-color: black}
 
 @media screen and (min-width: 64em) {
   .project-name {
@@ -87,10 +95,6 @@ a {
   .project-name {
     font-size: 1.75rem; } }
 
-.project-tagline {
-  margin-bottom: 2rem;
-  font-weight: normal;
-  opacity: 0.7; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
